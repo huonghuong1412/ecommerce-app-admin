@@ -1,0 +1,29 @@
+.card_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card_item {
+    width: 45%;
+    margin: 24px 5px;
+}
+
+.card_item-inner {
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.card_item span {
+    display: block;
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.primary {
+    color: rgba(24, 144, 255, 0.7);
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.35;
+}

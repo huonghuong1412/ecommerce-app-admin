@@ -1,0 +1,82 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Customers",
+        "route": "/customers",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Products",
+        "route": "/products",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Orders",
+        "route": "/orders",
+        "icon": "bx bx-cart"
+    },
+    {
+        "display_name": "Users",
+        "route": "/users",
+        "icon": "bx bx-user"
+    },
+    {
+        "display_name": "Categories",
+        "route": "/categories",
+        "icon": "bx bx-list-ol"
+    },
+    {
+        "display_name": "Authors",
+        "route": "/authors",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Publishers",
+        "route": "/publishers",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Brands",
+        "route": "/brands",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Payments",
+        "route": "/payments",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "Shipments",
+        "route": "/shipments",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "Slides",
+        "route": "/slides",
+        "icon": "bx bx-slideshow"
+    },
+    {
+        "display_name": "Analytics",
+        "route": "/analytics",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "discount",
+        "route": "/discount",
+        "icon": "bx bx-gift"
+    },
+    {
+        "display_name": "inventory",
+        "route": "/inventory",
+        "icon": "bx bx-store-alt"
+    },
+    {
+        "display_name": "settings",
+        "route": "/settings",
+        "icon": "bx bx-cog"
+    }
+]

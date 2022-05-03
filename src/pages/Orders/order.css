@@ -1,0 +1,322 @@
+.group {
+    margin-bottom: 0px;
+}
+
+.group .content {
+    width: 920px;
+    padding: 20px;
+    display: inline-block;
+    color: rgb(36, 36, 36);
+    line-height: 21px;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.group .content.has-table {
+    padding: 10px 20px;
+}
+
+.group .content table {
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100% !important;
+}
+
+.group .content table tr {
+    font-size: 13px;
+    border-bottom: 0px;
+}
+
+.group .content table tr:hover {
+    background-color: #fff;
+    color: rgb(36, 36, 36);
+}
+
+
+.group .content table tr td {
+    padding: 10px 15px;
+}
+
+.group .content table tr td:first-child {
+    width: 220px;
+    vertical-align: top;
+    color: rgb(79, 79, 79);
+    font-size: 13px;
+    font-weight: 500;
+    background: rgb(239, 239, 239);
+}
+
+.group .content table tr td:last-child {
+    flex: 1 1 0%;
+    border-right: 0px;
+}
+
+.order-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.order-group button {
+    width: 25%;
+}
+
+.view-list-order {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 1.3rem;
+  border: 1px solid transparent;
+  margin-right: 15px;
+  cursor: pointer;
+  color: rgb(0, 127, 240);
+}
+
+.list-cusomer-order .heading {
+    font-size: 19px;
+    line-height: 21px;
+    font-weight: 300;
+    margin: 0px 0 20px 0;
+}
+
+.list-cusomer-order .heading span {
+    font-weight: 500;
+}
+
+.Nbknf {
+    width: 100%;
+    color: rgb(66, 66, 66);
+    display: table;
+    font-size: 13px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+  
+  .Nbknf thead {
+    display: table-header-group;
+  }
+  
+  .Nbknf tr {
+    display: table-row;
+    padding: 10px;
+  }
+  
+  .Nbknf thead tr th {
+    display: table-cell;
+    padding: 20px 15px;
+    border-top: none;
+    min-width: 100px;
+    position: relative;
+    background: 0px 0px;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(244, 244, 244);
+    text-align: left;
+  }
+  
+  .Nbknf thead tr th:first-child {
+    border-left: none;
+  }
+  
+  .Nbknf thead tr th:last-child {
+    text-align: right;
+    min-width: 160px;
+  }
+  
+  .Nbknf tbody {
+    display: table-row-group;
+  }
+  
+  .Nbknf tbody tr {
+    border-bottom: 1px solid rgb(223, 222, 222);
+  }
+  
+  .Nbknf tbody tr:first-child {
+    border-top: none;
+  }
+  
+  .Nbknf tbody tr td {
+    border: none;
+    position: relative;
+    display: table-cell;
+    padding: 20px 15px;
+    color: rgb(36, 36, 36);
+    vertical-align: top;
+    min-width: 100px;
+  }
+  
+  .Nbknf tbody tr td:first-child {
+    border-top: none;
+    border-left: none;
+  }
+  
+  .Nbknf tbody tr td .product-item {
+    display: flex;
+  }
+  
+  .Nbknf tbody tr td .product-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .Nbknf tbody tr td .product-item .product-info .product-name {
+    font-size: 14px;
+    color: rgb(36, 36, 36);
+  }
+  
+  .Nbknf tbody tr td .product-item .product-info p {
+    margin: 12px 0px 0px;
+  }
+  
+  .Nbknf tbody tr td .product-item .product-info .product-seller {
+    font-size: 11px;
+  }
+  
+  .Nbknf tbody tr td .product-item .product-info .product-sku {
+    margin: 12px 0px;
+  }
+  
+  .Nbknf tbody tr td .product-item .product-info .product-review span, .Nbknf tbody tr td .product-item .product-info .product-review a {
+    display: inline-block;
+    margin-right: 10px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(24, 158, 255);
+    font-size: 12px;
+    color: rgb(24, 158, 255);
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Nbknf tbody tr td .product-item .product-info .product-review span, .Nbknf tbody tr td .product-item .product-info .product-review a {
+    display: inline-block;
+    margin-right: 10px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(24, 158, 255);
+    font-size: 12px;
+    color: rgb(24, 158, 255);
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Nbknf tbody tr td.price {
+    white-space: nowrap;
+  }
+  
+  .Nbknf tbody tr td:last-child {
+    text-align: right;
+    min-width: 160px;
+  }
+  
+  .Nbknf tfoot {
+    display: table-row-group;
+  }
+  
+  .Nbknf tfoot tr {
+    border-top: none;
+  }
+  
+  .Nbknf tfoot tr td {
+    text-align: right;
+    display: table-cell;
+    padding: 5px 20px;
+    max-width: 550px;
+    min-width: 125px;
+    color: rgb(36, 36, 36);
+  }
+  
+  .Nbknf tfoot tr:first-child td {
+    padding-top: 30px;
+  }
+  
+  .Nbknf tfoot tr td:first-child {
+    border-top: none;
+  }
+  
+  .Nbknf tfoot tr td span {
+    color: rgb(120, 120, 120);
+    font-size: 14px;
+  }
+  
+  .Nbknf tfoot tr:last-child td {
+    padding-bottom: 30px;
+  }
+  
+  .Nbknf tfoot tr td .sum {
+    color: rgb(255, 59, 39);
+    font-size: 18px;
+  }
+  
+  
+  /* ------------------- */
+  
+  .cRRvpz {
+    display: flex;
+    margin: 10px 0px 20px;
+    background: rgb(238, 238, 238);
+    padding: 15px 10px;
+  }
+  
+  .cRRvpz > div:first-child {
+    margin-left: 0px;
+  }
+  
+  .cRRvpz > div:last-child {
+    margin-right: 0px;
+  }
+  
+  .cRRvpz > div {
+    width: 33.3333%;
+    margin: 0px 5px;
+  }
+  .gQjSfs {
+    margin: 10px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .gQjSfs .title {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0px 0px 15px;
+    color: rgb(36, 36, 36);
+  }
+  
+  .gQjSfs .content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 4px;
+    height: 100%;
+  }
+  
+  .gQjSfs .name {
+    text-transform: uppercase;
+  }
+  
+  .cRRvpz .name {
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+  }
+  
+  .cRRvpz p {
+    margin: 5px 0px 0px;
+    font-size: 1.3rem;
+  }
+  
+  .gQjSfs .address span, .gQjSfs .phone span {
+    color: rgb(74, 74, 74);
+    font-weight: 300;
+    font-size: 1.3rem;
+  }

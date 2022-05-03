@@ -1,0 +1,33 @@
+.left-thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(218, 216, 216);
+}
+
+.product-detail {
+    padding: 16px 28px 16px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.product-detail .product-name {
+    display: flex;
+    align-items: center;
+}
+
+.product-detail .product-name span:first-child {
+    font-weight: 300;
+    color: #555;
+    width: 120px;
+    display: block;
+}
+
+.product-detail .product-name span:last-child {
+    margin: 0px 0px 4px;
+    max-width: 615px;
+    font-weight: 400;
+    color: rgb(36, 36, 36);
+}

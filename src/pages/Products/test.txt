@@ -1,0 +1,1867 @@
+{/* --------------- Food ---------- */}
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Trọng lượng"
+                                        name="weight"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thành phần"
+                                        name="ingredients"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Hạn sử dụng"
+                                        name="expiredDate"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Hướng dẫn sử dụng"
+                                        name="manual"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Hướng dẫn bảo quản"
+                                        name="preserve"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+
+                                {/* Electric */}
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin màn hình"
+                                        name="screen"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin hệ điều hành"
+                                        name="operatorSystem"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin RAM"
+                                        name="ram"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin PIN"
+                                        name="pin"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin thiết kế"
+                                        name="design"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin trọng lượng &amp; kích thước"
+                                        name="sizeWeight"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Chất liệu"
+                                        name="material"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thời điểm ra mắt"
+                                        name="releaseTime"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+
+                                {/* Laptop */}
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin CPU"
+                                        name="cpu"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin phần cứng"
+                                        name="hardWare"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin CARD màn hình"
+                                        name="card"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin đặc biệt"
+                                        name="special"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+
+                                {/* Phone */}
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin CAMERA trước"
+                                        name="frontCamera"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin CAMERA sau"
+                                        name="behindCamera"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin CHIP"
+                                        name="chip"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin bộ nhớ trong"
+                                        name="internalMemory"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+                                <Grid item md={12}>
+                                    <TextField
+                                        type="text"
+                                        label="Thông tin SIM"
+                                        name="sim"
+                                        fullWidth
+                                        variant="outlined"
+                                        onChange={handleChange}
+                                    />
+                                </Grid>
+
+
+
+ <Grid item md={12}>
+                                        <TextField
+                                            type="text"
+                                            label="Tên sản phẩm"
+                                            name="name"
+                                            margin="normal"
+                                            fullWidth
+                                            value={data.name ? data.name : ""}
+                                            variant="outlined"
+                                            onChange={handleChange}
+                                        />
+                                    </Grid>
+
+                                    <Grid item md={12}>
+                                        <TextField
+                                            type="number"
+                                            label="Giá sản phẩm"
+                                            name="price"
+                                            value={data.price ? data.price : ""}
+                                            fullWidth
+                                            variant="outlined"
+                                            onChange={handleChange}
+                                        />
+                                    </Grid>
+                                    <Grid item md={12}>
+                                        <CKEditor
+                                            data={data.description}
+                                            editor={ClassicEditor}
+                                            onChange={handleCkEditorChange}
+                                            config={{ placeholder: "Mô tả sản phẩm" }}
+                                            onReady={(editor) => {
+                                                // You can store the "editor" and use when it is needed.
+                                                // console.log("Editor is ready to use!", editor);
+                                                editor.editing.view.change((writer) => {
+                                                    writer.setStyle(
+                                                        "height",
+                                                        "300px",
+                                                        editor.editing.view.document.getRoot()
+                                                    );
+                                                });
+                                            }}
+                                        />
+                                    </Grid>
+                                    <Grid item md={6}>
+                                        <Autocomplete
+                                            id="combo-box-demo"
+                                            fullWidth
+                                            options={categories}
+                                            getOptionLabel={(option) =>
+                                                option.name ? option.name : ""
+                                            }
+                                            value={data.category ? data.category : ""}
+                                            onChange={(event, newValue) => {
+                                                setData({
+                                                    ...data,
+                                                    category: newValue,
+                                                });
+                                            }}
+                                            renderInput={(params) => (
+                                                <TextField
+                                                    {...params}
+                                                    fullWidth
+                                                    name="category"
+                                                    label="Category"
+                                                    variant="outlined"
+                                                />
+                                            )}
+                                        />
+                                    </Grid>
+                                    <Grid item md={6}>
+                                        <Autocomplete
+                                            id="combo-box-demo"
+                                            fullWidth
+                                            options={subcategories}
+                                            getOptionLabel={(option) =>
+                                                option.name ? option.name : ""
+                                            }
+                                            value={data.subcategory ? data.subcategory : ""}
+                                            onChange={(event, newValue) => {
+                                                setData({
+                                                    ...data,
+                                                    subcategory: newValue,
+                                                });
+                                            }}
+                                            renderInput={(params) => (
+                                                <TextField
+                                                    {...params}
+                                                    fullWidth
+                                                    name="subcategory"
+                                                    label="Subcategory"
+                                                    variant="outlined"
+                                                />
+                                            )}
+                                        />
+                                    </Grid>
+
+                                    {/* ----------- Book ----------- */}
+                                    <Grid item md={6}>
+                                        <TextField
+                                            type="number"
+                                            label="Năm xuất bản"
+                                            name="publishingYear"
+                                            value={data.publishingYear ? data.publishingYear : ""}
+                                            fullWidth
+                                            variant="outlined"
+                                            onChange={handleChange}
+                                        />
+                                    </Grid>
+                                    <Grid item md={6}>
+                                        <TextField
+                                            type="number"
+                                            label="Số trang"
+                                            name="numberOfPages"
+                                            value={data.numberOfPages ? data.numberOfPages : ""}
+                                            fullWidth
+                                            variant="outlined"
+                                            onChange={handleChange}
+                                        />
+                                    </Grid>
+                                    <Grid item md={6}>
+                                        <Autocomplete
+                                            id="combo-box-demo"
+                                            fullWidth
+                                            multiple
+                                            options={authors}
+                                            getOptionLabel={(option) =>
+                                                option.name ? option.name : ""
+                                            }
+                                            value={data.authors ? data.authors : ""}
+                                            onChange={(event, newValue) => {
+                                                setData({
+                                                    ...data,
+                                                    authors: newValue,
+                                                });
+                                            }}
+                                            renderInput={(params) => (
+                                                <TextField
+                                                    {...params}
+                                                    fullWidth
+                                                    name="authors"
+                                                    label="Tác giả"
+                                                    variant="outlined"
+                                                />
+                                            )}
+                                        />
+                                    </Grid>
+                                    <Grid item md={6}>
+                                        <Autocomplete
+                                            id="combo-box-demo"
+                                            fullWidth
+                                            options={publishers}
+                                            getOptionLabel={(option) =>
+                                                option.name ? option.name : ""
+                                            }
+                                            value={data.publisher ? data.publisher : ""}
+                                            onChange={(event, newValue) => {
+                                                setData({
+                                                    ...data,
+                                                    publisher: newValue,
+                                                });
+                                            }}
+                                            renderInput={(params) => (
+                                                <TextField
+                                                    {...params}
+                                                    fullWidth
+                                                    name="publisher"
+                                                    label="Nhà xuất bản"
+                                                    variant="outlined"
+                                                />
+                                            )}
+                                        />
+                                    </Grid>
+
+
+import { Button, makeStyles, LinearProgress } from '@material-ui/core';
+import React, { useCallback, useEffect, useState } from 'react'
+import axios from 'axios';
+import { API_URL } from '../../constants';
+import { addProduct, getOneItem, updateProduct } from 'services/ProductServices';
+import { uploadImage } from 'services/UploadFileService';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { ValidatorForm } from 'react-material-ui-form-validator';
+import { Editor } from "@tinymce/tinymce-react";
+import './style.css'
+import InputField from 'components/input/InputField';
+import SelectField from 'components/input/SelectField';
+import { getAllCategory } from 'services/CategoryServices';
+import ImageUploading from "react-images-uploading";
+
+toast.configure({
+    autoClose: 2000,
+    draggable: false,
+    limit: 3,
+});
+
+const useStyles = makeStyles((theme) => ({
+    input: {
+        display: 'none',
+    },
+    button: {
+        padding: '12px 24px',
+        fontWeight: 600,
+        fontSize: '1.3rem',
+        marginRight: 15
+    },
+    image: {
+        width: 150,
+        height: 150,
+        objectFit: 'cover',
+    }
+}))
+
+function ProductActions(props) {
+
+    const classes = useStyles();
+
+    const [loading, setLoading] = useState(true);
+    const [data, setData] = useState({
+        categories: [],
+        subcategories: [],
+        brands: [],
+        publishers: [],
+        authors: []
+    })
+
+    const [images, setImages] = React.useState([]);
+    const maxNumber = 69;
+    const onChange = (imageList, addUpdateIndex) => {
+        // data for submit
+        console.log(imageList, addUpdateIndex);
+        setImages(imageList);
+    };
+
+    const [product, setProduct] = useState({
+        id: null,
+        type: 1,
+        name: '',
+        sku: '',
+        price: 0,
+        list_price: 0,
+        description: '',
+        category: '',
+        subcategory: '',
+        brand: '',
+
+        // main & child image
+        images: [],
+        imageUploads: [],
+        imageUploadPreviews: [],
+        imageMainIndex: 0,
+
+        // sach
+        publishingYear: 0,
+        numberOfPages: 0,
+        authorCodes: [],
+        publisher: null,
+
+        // electric 
+        screen: null,
+        operatorSystem: null,
+        ram: null,
+        pin: null,
+        design: null,
+        sizeWeight: null,
+        material: null,
+        releaseTime: null,
+
+        // phone
+        frontCamera: null,
+        behindCamera: null,
+        chip: null,
+        internalMemory: null,
+        sim: null,
+
+        // laptop
+        cpu: null,
+        hardWare: null,
+        card: null,
+        special: null,
+
+    });
+
+    const handleChange = (e) => {
+        const value = e.target.value;
+        setProduct({
+            ...product,
+            type: product.category === "sach" ? 1 : 2,
+            [e.target.name]: value,
+        });
+    };
+
+    const handleChangeMultipleFile = (e) => {
+        const filesList = e.target.files;
+        if (filesList.length === 0)
+            return;
+        let arrPreviews = [...product?.imageUploadPreviews];
+        let arrUploads = [...product?.imageUploads];
+        let arrImages = [...product?.images];
+        for (let i = 0; i < filesList.length; i++) {
+            const file = filesList[i];
+            const reader = new FileReader();
+            reader.onloadend = (upload) => {
+                if (reader.readyState === 2) {
+                    arrPreviews.push(upload.target.result);
+                    arrUploads.push(file);
+                    arrImages.push(file.name);
+                    setProduct({
+                        ...product,
+                        imageUploadPreviews: arrPreviews,
+                        imageUploads: arrUploads,
+                        images: arrImages,
+                    })
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+
+    const handleChangeEditor = (e) => {
+        setProduct({
+            ...product,
+            description: e.target.getContent()
+        })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        let newData = { ...product };
+        switch (newData.category) {
+            case 'sach':
+                newData.type = 1;
+                break;
+            case 'laptop':
+                newData.type = 2;
+                break;
+            case 'dien-thoai':
+                newData.type = 2;
+                break;
+            default:
+                newData.type = 3;
+                break;
+        }
+
+        if (newData.id) {
+            console.log(newData);
+            // updateProduct(newData)
+            //     .then(() => {
+            //         toast.success("Cập nhật sản phẩm thành công");
+            //         props.history.goBack();
+            //     })
+            //     .catch(() => {
+            //         toast.error("Cập nhật sản phẩm không thành công");
+            //     })
+        } else {
+            console.log(newData);
+            // addProduct(newData)
+            //     .then(() => {
+            //         uploadImage(newData.imageUpload)
+            //             .then(() => { })
+            //             .catch(() => alert("ERROR"))
+
+            //         newData.imageUploads.forEach(item => {
+            //             uploadImage(item)
+            //                 .then(() => { })
+            //                 .catch(() => alert("ERROR"))
+            //         })
+
+            //         toast.success("Thêm sản phẩm thành công");
+            //         props.history.goBack();
+            //     })
+            //     .catch(() => {
+            //         toast.error("Thêm sản phẩm không thành công");
+            //     })
+
+            // console.log(newData.imageUploads);
+            // console.log(newData.images);
+            // console.log(newData.imageUploadPreviews);
+        }
+
+    }
+
+    let title = props.match.params.id ? `Cập nhật thông tin sản phẩm có id: ${props.match.params.id}` : "Thêm mới sản phẩm";
+
+    const fetchData = useCallback(() => {
+        getAllCategory()
+            .then(res => {
+                setData({
+                    ...data,
+                    categories: res.data,
+                })
+            }, [])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    const fetchDataOther = useCallback(() => {
+        if (product.category !== '') {
+            const getAllSubcategory = axios.get(`${API_URL}/api/subcategory/category?category=${product.category}`);
+            const getAllBrand = axios.get(`${API_URL}/api/brand/category?category=${product.category}`);
+            const getAllPublisher = axios.get(`${API_URL}/api/publisher`);
+            const getAllAuthor = axios.get(`${API_URL}/api/author`)
+            axios.all([getAllSubcategory, getAllBrand, getAllPublisher, getAllAuthor]).then(
+                axios.spread((...allData) => {
+                    const allSubcategory = allData[0].data;
+                    const allBrand = allData[1].data.content;
+                    const allPublisher = allData[2].data.content;
+                    const allAuthor = allData[3].data.content;
+                    setData({
+                        ...data,
+                        subcategories: allSubcategory,
+                        brands: allBrand,
+                        publishers: allPublisher,
+                        authors: allAuthor
+                    })
+                })
+            )
+        } else {
+            setData({
+                ...data,
+                subcategories: [],
+                brands: [],
+            })
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [product.category])
+
+    useEffect(() => {
+        fetchData();
+        fetchDataOther();
+        const id = props.match.params.id;
+        if (id) {
+            getOneItem(id)
+                .then((res) => {
+                    setProduct(res.data)
+                    setLoading(false);
+                })
+        } else {
+            setLoading(false);
+        }
+    }, [fetchData, fetchDataOther, props.match.params.id])
+
+    return <> {
+        loading ? <LinearProgress color="secondary" /> : (
+            <div>
+                <h2 className="page-header">{title}</h2>
+                <div className="row">
+                    <div className="col-12">
+                        <div className="card">
+                            <div className="card__body">
+                                <ValidatorForm onSubmit={handleSubmit}>
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <InputField
+                                                type="text"
+                                                label="Tên sản phẩm"
+                                                name="name"
+                                                value={product && product?.name}
+                                                onChange={handleChange}
+                                            />
+                                        </div>
+                                        <div className="col-6">
+                                            <InputField
+                                                type="text"
+                                                label="Mã sản phẩm"
+                                                name="sku"
+                                                value={product.sku ? product.sku : ""}
+                                                onChange={handleChange}
+                                            />
+                                        </div>
+                                        <div className="col-6">
+                                            <SelectField
+                                                label="Danh mục"
+                                                value={product.category || ""}
+                                                name="category"
+                                                onChange={handleChange}
+                                                data={data?.categories}
+                                            />
+                                        </div>
+                                        <div className="col-6">
+                                            <SelectField
+                                                label="Danh mục con"
+                                                value={product.subcategory || ""}
+                                                name="subcategory"
+                                                onChange={handleChange}
+                                                data={data?.subcategories}
+                                            />
+                                        </div>
+                                        <div className="col-6">
+                                            <SelectField
+                                                label="Thương hiệu"
+                                                value={product.brand || ""}
+                                                name="brand"
+                                                onChange={handleChange}
+                                                data={data?.brands}
+                                            />
+                                        </div>
+                                        <div className="col-6">
+                                            <InputField
+                                                type="number"
+                                                label="Giá niêm yết"
+                                                name="list_price"
+                                                value={product.list_price || 0}
+                                                onChange={handleChange}
+                                            />
+                                        </div>
+                                        <div className="col-6">
+                                            <InputField
+                                                type="number"
+                                                label="Giá bán"
+                                                name="price"
+                                                value={product.price || 0}
+                                                onChange={handleChange}
+                                            />
+                                        </div>
+                                        <div className="col-12 tiny-editor-margin">
+                                            <Editor
+                                                initialValue="<p>Nhập mô tả sản phẩm...</p>"
+                                                apiKey="0oiczdkt4b8lgo9kjmvrzsscibe0knl9d1cru6fr22ie2189"
+                                                value={product?.description}
+                                                init={{
+                                                    height: 500,
+                                                    menubar: false,
+                                                    plugins: [
+                                                        'advlist autolink lists link image charmap print preview anchor',
+                                                        'searchreplace visualblocks code fullscreen',
+                                                        'insertdatetime media table paste code help wordcount'
+                                                    ],
+                                                    toolbar: 'undo redo | formatselect | ' +
+                                                        'bold italic backcolor | alignleft aligncenter ' +
+                                                        'alignright alignjustify | bullist numlist outdent indent | ' +
+                                                        'link | image |' +
+                                                        'removeformat | help',
+                                                    content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+                                                }}
+                                                onChange={handleChangeEditor}
+                                            />
+                                        </div>
+                                        {/* ----------- Book ----------- */}
+                                        {product.category === "sach" ? (
+                                            <>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="number"
+                                                        label="Năm xuất bản"
+                                                        name="publishingYear"
+                                                        value={product.publishingYear || 0}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="number"
+                                                        label="Số trang"
+                                                        name="numberOfPages"
+                                                        value={product.numberOfPages || 0}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <SelectField
+                                                        label="Tác giả"
+                                                        value={product.authorCodes || []}
+                                                        name="authorCodes"
+                                                        multiple={true}
+                                                        onChange={handleChange}
+                                                        data={data?.authors}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <SelectField
+                                                        label="Nhà xuất bản"
+                                                        value={product.publisher || ""}
+                                                        name="publisher"
+                                                        onChange={handleChange}
+                                                        data={data?.publishers}
+                                                    />
+                                                </div>
+                                            </>
+                                        ) : ""}
+                                        {product.category === "laptop" || product.category === 'dien-thoai' ? (
+                                            <>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin màn hình"
+                                                        name="screen"
+                                                        value={product.screen || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin hệ điều hành"
+                                                        name="operatorSystem"
+                                                        value={product.operatorSystem || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin RAM"
+                                                        name="ram"
+                                                        value={product.ram || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin PIN"
+                                                        name="pin"
+                                                        value={product.pin || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin thiết kế"
+                                                        name="design"
+                                                        value={product.design || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin trọng lượng &amp; kích thước"
+                                                        name="sizeWeight"
+                                                        value={product.sizeWeight || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Chất liệu"
+                                                        name="material"
+                                                        value={product.material || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thời điểm ra mắt"
+                                                        name="releaseTime"
+                                                        value={product.releaseTime || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                            </>
+                                        ) : ""}
+
+                                        {product.category === "laptop" ? (
+                                            <>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin CPU"
+                                                        name="cpu"
+                                                        value={product.cpu || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin phần cứng"
+                                                        name="hardWare"
+                                                        value={product.hardWare || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin CARD màn hình"
+                                                        name="card"
+                                                        value={product.card || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin đặc biệt"
+                                                        name="special"
+                                                        value={product.special || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                            </>
+                                        ) : ""}
+                                        {product.category === "dien-thoai" ? (
+                                            <>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin CAMERA trước"
+                                                        name="frontCamera"
+                                                        value={product.frontCamera || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin CAMERA sau"
+                                                        name="behindCamera"
+                                                        value={product.behindCamera || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin CHIP"
+                                                        name="chip"
+                                                        value={product.chip || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin bộ nhớ trong"
+                                                        name="internalMemory"
+                                                        value={product.internalMemory || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                                <div className="col-6">
+                                                    <InputField
+                                                        type="text"
+                                                        label="Thông tin SIM"
+                                                        name="sim"
+                                                        value={product.sim || ""}
+                                                        onChange={handleChange}
+                                                    />
+                                                </div>
+                                            </>
+                                        ) : ""}
+                                        {product.id ? "" : (
+                                            <div className="col-12">
+                                                <div>
+                                                    <input
+                                                        accept="image/*"
+                                                        className={classes.input}
+                                                        id="contained-button-files"
+                                                        type="file"
+                                                        multiple={true}
+                                                        required
+                                                        name="imageUploadPreviews"
+                                                        onChange={handleChangeMultipleFile}
+                                                    />
+                                                    <label htmlFor="contained-button-files">
+                                                        <Button className={classes.button} variant="outlined" color="primary" component="span">
+                                                            Thêm hình ảnh
+                                                        </Button>
+                                                    </label>
+                                                </div>
+                                                <div className="image-wrapper">
+                                                    {
+                                                        product.imageUploadPreviews.map((item, index) => {
+                                                            return (
+                                                                <div className="image-wrapper-item" key={index}>
+                                                                    <img
+                                                                        src={item}
+                                                                        alt=""
+                                                                        width="100px"
+                                                                        height="100px"
+                                                                        className={classes.image}
+                                                                    />
+                                                                    <span className="image-wrapper-item-close" onClick={() => {
+                                                                        var index = product.imageUploadPreviews.indexOf(item);
+                                                                        if (index > -1) {
+                                                                            product.imageUploadPreviews.splice(index, 1);
+                                                                            product.imageUploads.splice(index, 1);
+                                                                            product.images.splice(index, 1);
+                                                                        }
+                                                                        setProduct({
+                                                                            ...product,
+                                                                            ...product.imageUploadPreviews,
+                                                                            ...product.imageUploads,
+                                                                            ...product.images
+                                                                        })
+                                                                    }}>
+                                                                        &times;
+                                                                    </span>
+                                                                </div>
+                                                            )
+                                                        })
+                                                    }
+                                                </div>
+                                            </div>
+                                        )}
+                                        <div className="col-12">
+                                            {/* {product.id ? (
+                                                <>
+                                                    <div>
+                                                        <input
+                                                            accept="image/*"
+                                                            className={classes.input}
+                                                            id="contained-button-files"
+                                                            type="file"
+                                                            multiple={true}
+                                                            required
+                                                            name="imageUploadPreviews"
+                                                            onChange={handleChangeMultipleFile}
+                                                        />
+                                                        <label htmlFor="contained-button-files">
+                                                            <Button className={classes.button} variant="outlined" color="primary" component="span">
+                                                                Thêm hình ảnh
+                                                            </Button>
+                                                        </label>
+                                                    </div>
+                                                    {
+                                                        product.imageUploadPreviews.map((item, index) => {
+                                                            return (
+                                                                <img
+                                                                    key={index}
+                                                                    src={item}
+                                                                    alt=""
+                                                                    width="100px"
+                                                                    height="100px"
+                                                                    className={classes.image}
+                                                                />
+                                                            )
+                                                        })
+                                                    }
+                                                </>
+                                            ) : ""} */}
+                                        </div>
+
+                                        <div className="col-12">
+
+                                            <ImageUploading
+                                                multiple
+                                                value={images}
+                                                onChange={onChange}
+                                                maxNumber={maxNumber}
+                                                dataURLKey="data_url"
+                                            >
+                                                {({
+                                                    imageList,
+                                                    onImageUpload,
+                                                    onImageRemoveAll,
+                                                    onImageUpdate,
+                                                    onImageRemove,
+                                                    isDragging,
+                                                    dragProps
+                                                }) => (
+                                                    // write your building UI
+                                                    <div className="upload__image-wrapper">
+                                                        <button
+                                                            style={isDragging ? { color: "red" } : null}
+                                                            onClick={onImageUpload}
+                                                            {...dragProps}
+                                                        >
+                                                            Click or Drop here
+                                                        </button>
+                                                        &nbsp;
+                                                        <button onClick={onImageRemoveAll}>Remove all images</button>
+                                                        {imageList.map((image, index) => (
+                                                            <div key={index} className="image-item">
+                                                                <img src={image.data_url} alt="" width="100" />
+                                                                <div className="image-item__btn-wrapper">
+                                                                    <button onClick={() => onImageUpdate(index)}>Update</button>
+                                                                    <button onClick={() => onImageRemove(index)}>Remove</button>
+                                                                </div>
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                )}
+                                            </ImageUploading>
+
+                                        </div>
+                                        <div className="col-12">
+                                            <Button
+                                                variant="outlined"
+                                                color="primary"
+                                                size="large"
+                                                type="submit"
+                                                className={classes.button}
+                                            >
+                                                {
+                                                    product.id ? "Cập nhật sản phẩm" : "Thêm mới sản phẩm"
+                                                }
+                                            </Button>
+                                            <Button
+                                                variant="outlined"
+                                                color="secondary"
+                                                size="large"
+                                                className={classes.button}
+                                                onClick={() => props.history.goBack()}
+                                            >
+                                                Quay lại
+                                            </Button>
+                                        </div>
+                                    </div>
+                                </ValidatorForm>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+    </>
+}
+
+export default ProductActions;
+
+import { Button, makeStyles, LinearProgress } from '@material-ui/core';
+import React, { useCallback, useEffect, useState } from 'react'
+import axios from 'axios';
+import { API_URL } from '../../constants';
+import { addProduct, getOneItem, updateProduct } from 'services/ProductServices';
+// import { uploadImage } from 'services/UploadFileService';
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Editor } from "@tinymce/tinymce-react";
+import './style.css'
+import InputField from 'components/input/InputField';
+import SelectField from 'components/input/SelectField';
+import { getAllCategory } from 'services/CategoryServices';
+import ImageUploading from "react-images-uploading";
+import { useHistory } from 'react-router';
+import { storage } from 'utils/firebase'
+
+toast.configure({
+    autoClose: 2000,
+    draggable: false,
+    limit: 3,
+});
+
+const useStyles = makeStyles((theme) => ({
+    input: {
+        display: 'none',
+    },
+    button: {
+        padding: '12px 24px',
+        fontWeight: 600,
+        fontSize: '1.3rem',
+        marginRight: 15
+    }
+}))
+
+function ProductActions(props) {
+
+    const classes = useStyles();
+    const history = useHistory();
+
+    const [loading, setLoading] = useState(true);
+    const [data, setData] = useState({
+        categories: [],
+        subcategories: [],
+        brands: [],
+        publishers: [],
+        authors: []
+    })
+
+    const maxNumber = 69;
+    const [imagesUpload, setImagesUpload] = useState([]);
+
+    const [urlMainImage, setUrlMainImage] = useState([]);
+    const [urlsListImage, setUrlsListImage] = useState([]);
+    const [progress, setProgress] = useState(0);
+
+
+    const [product, setProduct] = useState({
+        id: null,
+        type: 1,
+        name: '',
+        sku: '',
+        price: 0,
+        list_price: 0,
+        description: '',
+        category: '',
+        subcategory: '',
+        brand: '',
+
+        // main & child image
+        mainImage: '',
+        images: [],
+
+        // sach
+        publishingYear: 0,
+        numberOfPages: 0,
+        authorCodes: [],
+        publisher: null,
+
+        // electric 
+        screen: null,
+        operatorSystem: null,
+        ram: null,
+        pin: null,
+        design: null,
+        sizeWeight: null,
+        material: null,
+        releaseTime: null,
+
+        // phone
+        frontCamera: null,
+        behindCamera: null,
+        chip: null,
+        internalMemory: null,
+        sim: null,
+
+        // laptop
+        cpu: null,
+        hardWare: null,
+        card: null,
+        special: null,
+
+    });
+
+    const onChangeUploadMainImage = (imageList, addUpdateIndex) => {
+        const imageFiles = imageList.map(item => item.file);
+        // uploadImage(imageFiles)
+        //     .then((res) => {
+        //         setImagesUpload([
+        //             ...imagesUpload,
+        //             ...res.data
+        //         ]);
+        //     })
+        //     .catch((err) => console.log(err))
+        const promises = [];
+        const now = new Date().getTime();
+    };
+
+    const onChangeUploadImage = (imageList, addUpdateIndex) => {
+        const imageFiles = imageList.map(item => item.file);
+        // uploadImage(imageFiles)
+        //     .then((res) => {
+        //         setImagesUpload([
+        //             ...imagesUpload,
+        //             ...res.data
+        //         ]);
+        //     })
+        //     .catch((err) => console.log(err))
+        const promises = [];
+        const now = new Date().getTime();
+        imageFiles.map((image) => {
+            const uploadTask = storage.ref(`images/product/${now + '_' + image.name}`).put(image);
+            promises.push(uploadTask);
+            return uploadTask.on(
+                "state_changed",
+                (snapshot) => {
+                    const progress = Math.round(
+                        (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+                    );
+                    setProgress(progress);
+                },
+                (error) => {
+                    console.log(error);
+                },
+                async () => {
+                    await storage
+                        .ref("images/product")
+                        .child(now + '_' + image.name)
+                        .getDownloadURL()
+                        .then((urls) => {
+                            setUrlsListImage((prevState) => [...prevState, urls]);
+                        });
+                }
+            );
+        });
+        Promise.all(promises)
+            .then(() => toast.success("Upload hình ảnh thành công!"))
+            .catch(() => toast.warning("Upload hình ảnh không thành công!"));
+    };
+
+    const handleRemoveImage = (image) => {
+        const newArray = urlsListImage.filter((item) => item !== image);
+        // setImagesUpload(newArray);
+        var desertRef = storage.refFromURL(`${image}`);
+        desertRef.delete().then(function () {
+            toast.success("Xoá hình ảnh thành công!")
+            setUrlsListImage(newArray)
+        }).catch(function (error) {
+            toast.error("Xoá hình ảnh không thành công!")
+        });
+    }
+
+    const handleRemoveAllImage = () => {
+        const promises = [];
+        urlsListImage.map(url => promises.push(storage.refFromURL(`${url}`).delete()))
+        Promise.all(promises)
+            .then(() => {
+                setProgress(0);
+                setUrlsListImage([]);
+                toast.success("Xoá hình ảnh thành công!");
+            })
+            .catch(() => toast.warning("Xoá hình ảnh không thành công!"));
+    }
+
+    const handleChange = (e) => {
+        const value = e.target.value;
+        setProduct({
+            ...product,
+            type: product.category === "sach" ? 1 : 2,
+            [e.target.name]: value,
+        });
+    };
+
+    const handleChangeEditor = (e) => {
+        setProduct({
+            ...product,
+            description: e.target.getContent()
+        })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        let newData = { ...product };
+        const mainImage = urlMainImage
+        const images = urlsListImage;
+        switch (newData.category) {
+            case 'sach':
+                newData.type = 1;
+                break;
+            case 'laptop':
+                newData.type = 2;
+                break;
+            case 'dien-thoai':
+                newData.type = 2;
+                break;
+            default:
+                newData.type = 3;
+                break;
+        }
+        if (newData.id) {
+            newData.images = images;
+            updateProduct(newData)
+                .then(() => {
+                    toast.success("Cập nhật sản phẩm thành công");
+                    history.push('/admin/products/list');
+                })
+                .catch(() => {
+                    toast.error("Cập nhật sản phẩm không thành công");
+                })
+        } else {
+            newData.images = images;
+            console.log(newData);
+            // addProduct(newData)
+            //     .then(() => {
+            //         toast.success("Thêm sản phẩm thành công");
+            //         history.push('/admin/products/list');
+            //     })
+            //     .catch(() => {
+            //         toast.error("Thêm sản phẩm không thành công");
+            //     })
+        }
+
+    }
+
+    let title = props.match.params.id ? `Cập nhật thông tin sản phẩm có id: ${props.match.params.id}` : "Thêm mới sản phẩm";
+
+    const fetchData = useCallback(() => {
+        getAllCategory()
+            .then(res => {
+                setData({
+                    ...data,
+                    categories: res.data,
+                })
+            }, [])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    const fetchDataOther = useCallback(() => {
+        if (product.category !== '') {
+            const getAllSubcategory = axios.get(`${API_URL}/api/subcategory/category?category=${product.category}`);
+            const getAllBrand = axios.get(`${API_URL}/api/brand/category?category=${product.category}`);
+            const getAllPublisher = axios.get(`${API_URL}/api/publisher`);
+            const getAllAuthor = axios.get(`${API_URL}/api/author`)
+            axios.all([getAllSubcategory, getAllBrand, getAllPublisher, getAllAuthor]).then(
+                axios.spread((...allData) => {
+                    const allSubcategory = allData[0].data;
+                    const allBrand = allData[1].data.content;
+                    const allPublisher = allData[2].data.content;
+                    const allAuthor = allData[3].data.content;
+                    setData({
+                        ...data,
+                        subcategories: allSubcategory,
+                        brands: allBrand,
+                        publishers: allPublisher,
+                        authors: allAuthor
+                    })
+                })
+            )
+        } else {
+            setData({
+                ...data,
+                subcategories: [],
+                brands: [],
+            })
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [product.category])
+
+    useEffect(() => {
+        fetchData();
+        fetchDataOther();
+        const id = props.match.params.id;
+        if (id) {
+            getOneItem(id)
+                .then((res) => {
+                    setProduct(res.data)
+                    setImagesUpload([
+                        ...imagesUpload,
+                        ...res.data.images
+                    ])
+                    setLoading(false);
+                })
+        } else {
+            setLoading(false);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [fetchData, fetchDataOther, props.match.params.id])
+
+    return <> {
+        loading ? <LinearProgress color="secondary" /> : (
+            <div>
+                <h2 className="page-header">{title}</h2>
+                <div className="row">
+                    <div className="col-12">
+                        <div className="card">
+                            <div className="card__body">
+                                <div className="row">
+                                    <div className="col-12">
+                                        <InputField
+                                            type="text"
+                                            label="Tên sản phẩm"
+                                            name="name"
+                                            value={product && product?.name}
+                                            onChange={handleChange}
+                                        />
+                                    </div>
+                                    <div className="col-6">
+                                        <InputField
+                                            type="text"
+                                            label="Mã sản phẩm"
+                                            name="sku"
+                                            value={product.sku ? product.sku : ""}
+                                            onChange={handleChange}
+                                        />
+                                    </div>
+                                    <div className="col-6">
+                                        <SelectField
+                                            label="Danh mục"
+                                            value={product.category || ""}
+                                            name="category"
+                                            onChange={handleChange}
+                                            data={data?.categories}
+                                        />
+                                    </div>
+                                    <div className="col-6">
+                                        <SelectField
+                                            label="Danh mục con"
+                                            value={product.subcategory || ""}
+                                            name="subcategory"
+                                            onChange={handleChange}
+                                            data={data?.subcategories}
+                                        />
+                                    </div>
+                                    <div className="col-6">
+                                        <SelectField
+                                            label="Thương hiệu"
+                                            value={product.brand || ""}
+                                            name="brand"
+                                            onChange={handleChange}
+                                            data={data?.brands}
+                                        />
+                                    </div>
+                                    <div className="col-6">
+                                        <InputField
+                                            type="number"
+                                            label="Giá niêm yết"
+                                            name="list_price"
+                                            value={product.list_price || 0}
+                                            onChange={handleChange}
+                                        />
+                                    </div>
+                                    <div className="col-6">
+                                        <InputField
+                                            type="number"
+                                            label="Giá bán"
+                                            name="price"
+                                            value={product.price || 0}
+                                            onChange={handleChange}
+                                        />
+                                    </div>
+                                    <div className="col-12 tiny-editor-margin">
+                                        <Editor
+                                            initialValue="<p>Nhập mô tả sản phẩm...</p>"
+                                            apiKey="0oiczdkt4b8lgo9kjmvrzsscibe0knl9d1cru6fr22ie2189"
+                                            value={product?.description}
+                                            init={{
+                                                height: 500,
+                                                menubar: false,
+                                                plugins: [
+                                                    'advlist autolink lists link image charmap print preview anchor',
+                                                    'searchreplace visualblocks code fullscreen',
+                                                    'insertdatetime media table paste code help wordcount'
+                                                ],
+                                                toolbar: 'undo redo | formatselect | ' +
+                                                    'bold italic backcolor | alignleft aligncenter ' +
+                                                    'alignright alignjustify | bullist numlist outdent indent | ' +
+                                                    'link | image |' +
+                                                    'removeformat | help',
+                                                content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+                                            }}
+                                            onChange={handleChangeEditor}
+                                        />
+                                    </div>
+                                    {/* ----------- Book ----------- */}
+                                    {product.category === "sach" ? (
+                                        <>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="number"
+                                                    label="Năm xuất bản"
+                                                    name="publishingYear"
+                                                    value={product.publishingYear || 0}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="number"
+                                                    label="Số trang"
+                                                    name="numberOfPages"
+                                                    value={product.numberOfPages || 0}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <SelectField
+                                                    label="Tác giả"
+                                                    value={product.authorCodes || []}
+                                                    name="authorCodes"
+                                                    multiple={true}
+                                                    onChange={handleChange}
+                                                    data={data?.authors}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <SelectField
+                                                    label="Nhà xuất bản"
+                                                    value={product.publisher || ""}
+                                                    name="publisher"
+                                                    onChange={handleChange}
+                                                    data={data?.publishers}
+                                                />
+                                            </div>
+                                        </>
+                                    ) : ""}
+                                    {product.category === "laptop" || product.category === 'dien-thoai' ? (
+                                        <>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin màn hình"
+                                                    name="screen"
+                                                    value={product.screen || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin hệ điều hành"
+                                                    name="operatorSystem"
+                                                    value={product.operatorSystem || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin RAM"
+                                                    name="ram"
+                                                    value={product.ram || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin PIN"
+                                                    name="pin"
+                                                    value={product.pin || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin thiết kế"
+                                                    name="design"
+                                                    value={product.design || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin trọng lượng &amp; kích thước"
+                                                    name="sizeWeight"
+                                                    value={product.sizeWeight || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Chất liệu"
+                                                    name="material"
+                                                    value={product.material || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thời điểm ra mắt"
+                                                    name="releaseTime"
+                                                    value={product.releaseTime || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                        </>
+                                    ) : ""}
+
+                                    {product.category === "laptop" ? (
+                                        <>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin CPU"
+                                                    name="cpu"
+                                                    value={product.cpu || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin phần cứng"
+                                                    name="hardWare"
+                                                    value={product.hardWare || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin CARD màn hình"
+                                                    name="card"
+                                                    value={product.card || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin đặc biệt"
+                                                    name="special"
+                                                    value={product.special || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                        </>
+                                    ) : ""}
+                                    {product.category === "dien-thoai" ? (
+                                        <>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin CAMERA trước"
+                                                    name="frontCamera"
+                                                    value={product.frontCamera || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin CAMERA sau"
+                                                    name="behindCamera"
+                                                    value={product.behindCamera || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin CHIP"
+                                                    name="chip"
+                                                    value={product.chip || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin bộ nhớ trong"
+                                                    name="internalMemory"
+                                                    value={product.internalMemory || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                            <div className="col-6">
+                                                <InputField
+                                                    type="text"
+                                                    label="Thông tin SIM"
+                                                    name="sim"
+                                                    value={product.sim || ""}
+                                                    onChange={handleChange}
+                                                />
+                                            </div>
+                                        </>
+                                    ) : ""}
+
+                                    <div className="col-12 tiny-editor-margin">
+                                        <ImageUploading
+                                            value={product.mainImage}
+                                            onChange={onChangeUploadImage}
+                                            maxNumber={1}
+                                        >
+                                            {({
+                                                onImageUpload,
+                                                dragProps
+                                            }) => (
+                                                <div className="upload__image-wrapper">
+                                                    <Button
+                                                        className={classes.button}
+                                                        variant="outlined"
+                                                        color="primary"
+                                                        component="span"
+                                                        onClick={onImageUpload}
+                                                        {...dragProps}
+                                                    >
+                                                        Thêm ảnh chính
+                                                    </Button>
+                                                    <progress className="progress-bar" value={progress} max="100" />
+                                                    <div className="image-wrapper">
+                                                        
+                                                    </div>
+                                                </div>
+                                            )}
+                                        </ImageUploading>
+                                    </div>
+                                    <div className="col-12 tiny-editor-margin">
+                                        <ImageUploading
+                                            multiple
+                                            value={product.images}
+                                            onChange={onChangeUploadImage}
+                                            maxNumber={maxNumber}
+                                            dataURLKey="data_url"
+                                        >
+                                            {({
+                                                onImageUpload,
+                                                dragProps
+                                            }) => (
+                                                <div className="upload__image-wrapper">
+                                                    <Button
+                                                        className={classes.button}
+                                                        variant="outlined"
+                                                        color="primary"
+                                                        component="span"
+                                                        onClick={onImageUpload}
+                                                        {...dragProps}
+                                                    >
+                                                        Thêm ảnh phụ
+                                                    </Button>
+                                                    <progress className="progress-bar" value={progress} max="100" />
+                                                    <div className="image-wrapper">
+                                                        <button onClick={handleRemoveAllImage} className="btn-remove-all">Xoá tất cả</button>
+                                                        {
+                                                            urlsListImage.map((image, index) => (
+                                                                <div key={index} className="image-wrapper-item">
+                                                                    <img src={image} alt="" />
+                                                                    <div className="overlay"></div>
+                                                                    <div className="image-item__btn-wrapper">
+                                                                        <button onClick={() => handleRemoveImage(image)}>
+                                                                            <i className='bx bx-trash' ></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            ))
+                                                        }
+                                                    </div>
+                                                </div>
+                                            )}
+                                        </ImageUploading>
+
+                                    </div>
+                                    <div className="col-12">
+                                        <Button
+                                            variant="outlined"
+                                            color="primary"
+                                            size="large"
+                                            type="submit"
+                                            onClick={handleSubmit}
+                                            className={classes.button}
+                                        >
+                                            {
+                                                product.id ? "Cập nhật" : "Lưu sản phẩm"
+                                            }
+                                        </Button>
+                                        <Button
+                                            variant="outlined"
+                                            color="secondary"
+                                            size="large"
+                                            className={classes.button}
+                                            onClick={() => history.push('/admin/products/list')}
+                                        >
+                                            Quay lại
+                                        </Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+    </>
+}
+
+export default ProductActions;

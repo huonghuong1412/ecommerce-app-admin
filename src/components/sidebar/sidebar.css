@@ -1,0 +1,123 @@
+.sidebar {
+    min-width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+    overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar-track
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+}
+
+.sidebar::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+.sidebar::-webkit-scrollbar-thumb
+{
+  background-color: #0ae;
+  
+  background-image: -webkit-gradient(linear, 0 0, 0 100%,
+                     color-stop(.5, rgba(255, 255, 255, .2)),
+             color-stop(.5, transparent), to(transparent));
+}
+
+.sidebar__logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sidebar__logo a > img {
+    /* height: 45px; */
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.sidebar__item {
+    padding: 0 20px;
+}
+
+.sidebar__item-inner {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    transition: 0.3s all ease;
+}
+
+.sidebar__item-inner > i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.sidebar__item-inner > span {
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+.sidebar__item-inner:hover {
+    color: var(--main-color);
+}
+
+.sidebar__item-inner.active {
+    border-radius: var(--border-radius);
+    background-image: linear-gradient(
+        to right,
+        var(--main-color),
+        var(--second-color)
+    );
+    color: var(--txt-white);
+}
+
+
+.pro-sidebar {
+    width: 220px;
+    max-width: 220px;
+    min-width: 220px;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+    background-color: #fff;
+}
+
+.pro-sidebar > .pro-sidebar-inner {
+    height: auto;
+}
+
+.sidebar.close {
+    visibility: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+	transition: 0.3s all ease;
+    left: -270px;
+}
+
+.sidebar.open {
+    -webkit-transition: -webkit-transform 0.5s;
+	transition: 0.3s all ease;
+    visibility: visible;
+    left: 0;
+}
+
+.sidebar.close + .layout__content {
+    -webkit-transition: -webkit-transform 0.5s;
+	transition: 0.3s all ease;
+    padding-left: 0 !important;
+}
+
+.sidebar.open + .layout__content {
+    -webkit-transition: -webkit-transform 0.5s;
+	transition: 0.3s all ease;
+    padding-left: var(--sidebar-width);
+}
